@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    color: white
+}
+
+a {
+    color: rgb(21, 255, 0);
+}
+
+body {
+    padding: 50px;
+    margin: 0;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px;
+}
+
+.content {
+    margin: 50px 0;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.copyright {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.right {
+    margin-right: 100px;
+}
